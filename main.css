@@ -1,0 +1,79 @@
+body {
+   font-family: 'Georgia',serif;
+   font-size: 1em;
+   background-color: black;
+}
+
+.content {
+	background-color: white;
+}
+
+.menu {
+	background-color: white;
+}
+
+.menu .navbar {
+	margin-left: 0.4em;
+	margin-right: 0.4em;
+	margin-top: 0.2em;
+}
+
+.logo {
+	height: 9em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+header {
+	height: 9.1em;
+	background-color: #0C0D31;
+    color: white;
+}
+
+footer {
+	height: 9.1em;
+	background-color: #0C0D31;
+    color: white;
+}
+
+article {
+	margin-bottom: 4em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+article h2 {
+	border-bottom: 2px solid #556699;
+}
+
+navigation {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.postInfo {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+footer {
+	color: white;
+	text-align: center;
+}
+
+footer legend {
+	color: white;
+}
+
+sidebar .nav {
+	margin-right: 2em;
+}
+
+sidebar h3 {
+	text-align: center;
+}
+
+#comments blockquote p {
+	font-size: 0.9em;
+	font-weight: normal;
+}
