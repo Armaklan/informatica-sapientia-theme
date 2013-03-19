@@ -15,7 +15,7 @@
                 		<?php $plxShow->artChapo(); ?>        
                         <div class="postInfo">
                             <ul class="nav nav-pills">
-                                <li class="pull-right"><i class="icon-tag"></i><em><?php $plxShow->artCat(); ?></li>
+                                <li class="pull-right"><i class="icon-tag"></i><em><?php $plxShow->artCat(); ?>, <?php $plxShow->artTags(); ?></em></li>
                             </ul>                           
                         </div>
                         
@@ -31,6 +31,7 @@
 			<div class="row-fluid content">
                 <div class="span12" style="text-align: center;">
 					<p id="pagination"><?php $plxShow->pagination(); ?></p>
+                    <p><i><?php $plxShow->tagFeed('rss')?></i></p>
                 </div>
             </div>
 	

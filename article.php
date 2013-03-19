@@ -16,7 +16,7 @@
 
                         <div class="postInfo">
                             <ul class="nav nav-pills">
-                                <li class="pull-right"><i class="icon-tag"></i><em><?php $plxShow->artCat(); ?></li>
+                                <li class="pull-right"><i class="icon-tag"></i><em><?php $plxShow->artCat(); ?>, <?php $plxShow->artTags(); ?></em></li>
                             </ul>                           
                         </div>
 

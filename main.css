@@ -40,6 +40,10 @@ article {
 	margin-bottom: 4em;
 	margin-left: 1em;
 	margin-right: 1em;
+	hyphens: auto;
+  	-webkit-hyphens: auto;
+  	-moz-hyphens: auto;
+  	text-align: justify;
 }
 
 article h2 {
@@ -59,6 +63,7 @@ navigation {
 footer {
 	color: white;
 	text-align: center;
+    min-height: 13em;
 }
 
 footer legend {
@@ -76,4 +81,13 @@ sidebar h3 {
 #comments blockquote p {
 	font-size: 0.9em;
 	font-weight: normal;
+}
+
+#commentModal textarea {
+	width: 420px;
+	height: 100px;
+}
+
+#message {
+	width: 580px;
 }
